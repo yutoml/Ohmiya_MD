@@ -1,0 +1,27 @@
+name: "water"
+train_file: "train.xyz"
+valid_fraction: 0.05
+E0s: "{1: -0.15225284, 8: -0.08810633}"
+model: "MACE"
+num_interactions: 2
+num_channels: 64
+max_L: 0
+correlation: 3
+r_max: 6.0
+forces_weight: 100
+energy_weight: 10
+energy_key: "REF_energy"
+forces_key: "REF_forces"
+batch_size: 10
+valid_batch_size: 4
+max_num_epochs: 100
+scheduler_patience: 15
+patience: 30
+eval_interval: 4
+ema: True
+swa: True
+error_table: "PerAtomMAE"
+default_dtype: "float64"
+device: cuda
+seed: 123
+save_cpu: True

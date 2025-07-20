@@ -1,0 +1,16 @@
+ENCUT            = 700 #larger cutoff
+LASPH            = .True.
+GGA              = RP
+IVDW             = 11
+ALGO             = Normal
+LREAL            = Auto
+ISMEAR           = 0
+SIGMA            = 0.1
+
+ISYM             = 0
+
+IBRION           = -1
+ISIF             = 2
+NSW              = 0
+
+KPAR = 2

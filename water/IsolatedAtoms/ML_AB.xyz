@@ -1,0 +1,6 @@
+1
+config_type=IsolatedAtom energy=-0.15225284 stress="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0" Lattice="20.0 0.0 0.0 0.0 20.0 0.0 0.0 0.0 20.0" pbc="T T T" Properties=species:S:1:pos:R:3:forces:R:3 config_stress_weight = 0.0
+H         0.0 0.0 0.0 0.0 0.0 0.0
+1
+config_type=IsolatedAtom energy=-0.08810633 stress="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0" Lattice="20.0 0.0 0.0 0.0 20.0 0.0 0.0 0.0 20.0" pbc="T T T" Properties=species:S:1:pos:R:3:forces:R:3 config_stress_weight = 0.0.
+O         0.0 0.0 0.0 0.0 0.0 0.0

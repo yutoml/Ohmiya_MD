@@ -1,0 +1,29 @@
+ENCUT            = 700 #larger cutoff
+LASPH            = .True.
+GGA              = RP
+IVDW             = 11
+ALGO             = Normal
+LREAL            = Auto
+ISMEAR           = 0
+SIGMA            = 0.1
+
+ISYM             = 0
+
+IBRION           = 0
+MDALGO           = 3
+ISIF             = 3
+POTIM            = 1.5
+TEBEG            = 200
+TEEND            = 300
+LANGEVIN_GAMMA   = 10.0 10.0
+LANGEVIN_GAMMA_L = 3.0
+PMASS            = 100
+PSTRESS          = 0.001
+NSW              = 5000
+
+POMASS           = 8.0 16.0
+
+ML_LMLFF         = .TRUE.
+ML_MODE          =  TRAIN
+
+KPAR = 2
